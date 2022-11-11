@@ -9,6 +9,7 @@ import com.anudip.onetoone.entity.AddressProof;
 import com.anudip.onetoone.entity.Employee;
 
 public class EmployeeDao implements Employee1Dao {
+	
 	public void add() {
 		try {
 			Session session=HbUtil.getSessionFactory().openSession();
@@ -35,6 +36,7 @@ public class EmployeeDao implements Employee1Dao {
 
 
 	}
+	
 	public void fetchEmployee(int id) {
 		try {
 

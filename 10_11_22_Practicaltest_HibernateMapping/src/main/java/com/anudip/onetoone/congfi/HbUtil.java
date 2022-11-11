@@ -28,7 +28,7 @@ package com.anudip.onetoone.congfi;
 					settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
 					settings.put(Environment.URL, "jdbc:mysql://localhost:3306/sys");
 					settings.put(Environment.USER, "root");
-					settings.put(Environment.PASS, "Thanos@admin");
+					settings.put(Environment.PASS, "123456@Sg");
 					settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 
 					settings.put(Environment.SHOW_SQL, "true");
